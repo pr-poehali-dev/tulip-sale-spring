@@ -351,19 +351,19 @@ const Index = () => {
                 </div>
                 <h3 className="text-2xl font-bold">Стандартная доставка</h3>
               </div>
-              <p className="text-gray-600 mb-4">Доставим в течение 1-2 дней с момента заказа</p>
+              <p className="text-gray-600 mb-4">В любой уголок города по вашим запросам в любое время</p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center gap-2">
                   <Icon name="Check" size={16} className="text-green-500" />
-                  <span>По городу — 300 ₽</span>
+                  <span>Любой район города</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="Check" size={16} className="text-green-500" />
-                  <span>Пригород — 500 ₽</span>
+                  <span>В удобное для вас время</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="Check" size={16} className="text-green-500" />
-                  <span>Бесплатно при заказе от 3000 ₽</span>
+                  <span>Организуем доставку под ключ</span>
                 </div>
               </div>
             </Card>
@@ -374,19 +374,19 @@ const Index = () => {
                 </div>
                 <h3 className="text-2xl font-bold">Экспресс доставка</h3>
               </div>
-              <p className="text-gray-600 mb-4">Доставим в течение 3-4 часов после заказа</p>
+              <p className="text-gray-600 mb-4">Срочная доставка в течение нескольких часов</p>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center gap-2">
                   <Icon name="Check" size={16} className="text-green-500" />
-                  <span>По городу — 600 ₽</span>
+                  <span>Максимально быстро</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="Check" size={16} className="text-green-500" />
-                  <span>Точное время доставки</span>
+                  <span>К точному времени</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="Check" size={16} className="text-green-500" />
-                  <span>Доступна с 9:00 до 20:00</span>
+                  <span>Круглосуточно</span>
                 </div>
               </div>
             </Card>
@@ -395,12 +395,20 @@ const Index = () => {
             <div className="flex items-start gap-4">
               <Icon name="Info" size={24} className="text-primary mt-1" />
               <div>
-                <h3 className="text-xl font-bold mb-2">Сезонность доставки</h3>
-                <p className="text-gray-700">
-                  Обратите внимание: некоторые сорта тюльпанов доступны только в определённые месяцы. 
-                  Сроки доставки могут варьироваться в зависимости от сезона и наличия цветов. 
-                  Мы гарантируем свежесть каждого букета!
+                <h3 className="text-xl font-bold mb-2">Свяжитесь с нами</h3>
+                <p className="text-gray-700 mb-4">
+                  Доставка цветов организована прекрасно. В любой уголок города по вашим запросам в любое время.
                 </p>
+                <div className="flex flex-wrap gap-6 items-center">
+                  <div className="flex items-center gap-2">
+                    <Icon name="Mail" size={20} className="text-primary" />
+                    <span className="font-bold">Пишите: info@tulips.ru</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Phone" size={20} className="text-primary" />
+                    <span className="font-bold">Звоните: +7 (999) 123-45-67</span>
+                  </div>
+                </div>
               </div>
             </div>
           </Card>
